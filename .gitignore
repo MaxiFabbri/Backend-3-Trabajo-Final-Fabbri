@@ -3,3 +3,4 @@ node_modules
 /test
 dockerfile
 .dockerignore
+coderpets.yaml

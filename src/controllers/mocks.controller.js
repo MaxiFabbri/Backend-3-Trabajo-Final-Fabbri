@@ -1,7 +1,7 @@
 import MockingService from "../services/mocking.js";
-import CustomError from "../services/errors/custom-error.js";
-import { generarDbError } from "../services/errors/info.js";
-import { EErrors } from "../services/errors/enum.js";
+import CustomError from "../services/errors/CustomError.js";
+import { generateUserErrorInfo } from "../services/errors/info.js";
+import EErrors from "../services/errors/enum.js";
 
 
 const getMockingPets = async (req, res) => {

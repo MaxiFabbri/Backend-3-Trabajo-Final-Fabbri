@@ -1,16 +1,16 @@
-import { EErrors } from "../services/errors/enum.js";
+import EErrors from "../services/errors/enum.js";
 
-function errorHandler (error, req, res, next) {
-    console.log("***** Error Handler: ", error.causa, "Error code: ", error.code, " *****"); 
+function errorHandler (error, req, res, next) { 
     switch(error.code) {
-        case EErrors.TIPO_INVALIDO: 
-            res.send({status: "error", error: error.nombre})
+        case EErrors.INVALID_TYPES_ERROR: ;
+            console.log(error.name);
+            res.send({status: "error", error: error.name})
             break;
-        case EErrors.RUTA_ERROR:
-            res.send({status: "error", error: error.nombre})
+        case EErrors.ROUTING_ERROR:
+            res.send({status: "error", error: error.name})
             break;
-        case EErrors.BD_ERROR:
-            res.send({status: "error", error: error.nombre})
+        case EErrors.DATABASE_ERROR:
+            res.send({status: "error", error: error.name})
             break;
         default: 
             res.send({status: "error", error: "Error desconocido"})

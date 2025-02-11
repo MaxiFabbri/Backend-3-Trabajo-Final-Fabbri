@@ -1,0 +1,224 @@
+paths:
+  /api/pets:
+    get:
+      summary: Get all pets
+      operationId: getAllPets
+      tags:
+        - Pets
+      responses:
+        '200':
+          description: A list of pets
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  status:
+                    type: string
+                    example: success
+                  payload:
+                    type: array
+                    items:
+                      $ref: '#/components/schemas/Pet'
+
+    post:
+      summary: Create a new pet
+      operationId: createPet
+      tags:
+        - Pets
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                name:
+                  type: string
+                specie:
+                  type: string
+                birthDate:
+                  type: string
+                  format: date
+              example: {name: 'Buddy', specie: 'Dog', birthDate: '2020-01-01'}
+      responses:
+        '200':
+          description: Pet created
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  status:
+                    type: string
+                    example: success
+                  payload:
+                    $ref: '#/components/schemas/Pet'
+        '400':
+          description: Incomplete values
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  status:
+                    type: string
+                    example: error
+                  error:
+                    type: string
+                    example: Incomplete values
+
+  /api/pets/withimage:
+    post:
+      summary: Create a new pet with an image
+      operationId: createPetWithImage
+      tags:
+        - Pets
+      requestBody:
+        required: true
+        content:
+          multipart/form-data:
+            schema:
+              type: object
+              properties:
+                name:
+                  type: string
+                specie:
+                  type: string
+                birthDate:
+                  type: string
+                  format: date
+                image:
+                  type: string
+                  format: binary
+              example: {name: 'Buddy', specie: 'Dog', birthDate: '2020-01-01', image: 'file.png'}
+      responses:
+        '200':
+          description: Pet created with image
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  status:
+                    type: string
+                    example: success
+                  payload:
+                    $ref: '#/components/schemas/Pet'
+        '400':
+          description: Incomplete values
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  status:
+                    type: string
+                    example: error
+                  error:
+                    type: string
+                    example: Incomplete values
+
+  /api/pets/{pid}:
+    put:
+      summary: Update a pet by ID
+      operationId: updatePet
+      tags:
+        - Pets
+      parameters:
+        - name: pid
+          in: path
+          required: true
+          schema:
+            type: string
+          description: Pet ID
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                name:
+                  type: string
+                specie:
+                  type: string
+                birthDate:
+                  type: string
+                  format: date
+                adopted:
+                  type: boolean
+                owner:
+                  type: string
+                image:
+                  type: string
+              example: {name: 'Buddy', specie: 'Dog', birthDate: '2020-01-01', adopted: true, owner: '60d0fe4f5311236168a109ca', image: 'image.png'}
+      responses:
+        '200':
+          description: Pet updated
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  status:
+                    type: string
+                    example: success
+                  message:
+                    type: string
+                    example: Pet updated
+
+    delete:
+      summary: Delete a pet by ID
+      operationId: deletePet
+      tags:
+        - Pets
+      parameters:
+        - name: pid
+          in: path
+          required: true
+          schema:
+            type: string
+          description: Pet ID
+      responses:
+        '200':
+          description: Pet deleted
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  status:
+                    type: string
+                    example: success
+                  message:
+                    type: string
+                    example: Pet deleted
+
+components:
+  schemas:
+    Pet:
+      type: object
+      properties:
+        id:
+          type: string
+          example: 60d0fe4f5311236168a109ca
+        name:
+          type: string
+          example: Buddy
+        specie:
+          type: string
+          example: Dog
+        birthDate:
+          type: string
+          format: date
+          example: 2020-01-01
+        adopted:
+          type: boolean
+          example: false
+        owner:
+          type: string
+          example: 60d0fe4f5311236168a109ca
+        image:
+          type: string
+          example: /path/to/image.png

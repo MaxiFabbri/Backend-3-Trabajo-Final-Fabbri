@@ -12,6 +12,9 @@ import dbConnect from "./utils/dbConnect.util.js"
 import errorHandler from './middlewares/errorHandler.js';
 import { addLogger } from './utils/logger.js';
 import { cpus } from "os";
+import cluster from "cluster";
+import swaggerJSDoc from 'swagger-jsdoc';
+import swaggerUiExpress from "swagger-ui-express"; 
 
 const app = express();
 const PORT = process.env.PORT||8080;
@@ -20,6 +23,7 @@ const numeroDeProcesadores = cpus().length;
 const ready = () => {
     console.log("Server ready on port: ",PORT);
     console.log("Numero de procesadores: ",numeroDeProcesadores);
+    console.log("Process ID: ",process.pid);
     dbConnect()
 }
 
@@ -40,3 +44,18 @@ app.use('/api/mocks',mocksRouter);
 app.use(errorHandler)
 
 app.listen(PORT, ready)
+
+// Documentation with swagger
+const swaggerOptions = {
+    definition: {
+        openapi: "3.0.1",
+        info: {
+            title: "Documentación de la App Adoptame", 
+            description: "App dedicada a encontrar familias para los perritos de la calle"
+        }
+    }, 
+    apis: ["./src/docs/**/*.yaml"]
+}
+
+const specs = swaggerJSDoc(swaggerOptions); 
+app.use("/apidocs", swaggerUiExpress.serve, swaggerUiExpress.setup(specs)); 

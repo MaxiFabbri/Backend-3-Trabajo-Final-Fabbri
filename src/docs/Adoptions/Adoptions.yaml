@@ -1,0 +1,67 @@
+paths:
+  /api/adoptions:
+    get:
+      summary: Get All Adoptions
+      operationId: getAllAdoptions
+      tags:
+        - Adoptions
+      responses:
+        '200':
+          description: Successfully fetched adoptions
+        '404':
+          description: Adoption not found
+    post:
+      summary: Create Adoption
+      operationId: createAdoption
+      tags:
+        - Adoptions
+      parameters:
+        - name: uid
+          in: path
+          required: true
+          description: User ID
+          schema:
+            type: string
+        - name: pid
+          in: path
+          required: true
+          description: Pet ID
+          schema:
+            type: string
+      responses:
+        '201':
+          description: Pet adopted
+        '404':
+          description: User or Pet not found
+        '400':
+          description: Pet is already adopted
+
+  /api/adoptions/{aid}:
+    get:
+      summary: Get Adoption by ID
+      operationId: getAdoptionById
+      tags:
+        - Adoptions
+      parameters:
+        - name: aid
+          in: path
+          required: true
+          description: Adoption ID
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Successfully fetched adoption
+        '404':
+          description: Adoption not found
+
+components:
+  schemas:
+    Adoption:
+      type: object
+      properties:
+        owner:
+          $ref: '#/components/schemas/User'
+        pet:
+          $ref: '#/components/schemas/Pet'
+

@@ -1,6 +1,7 @@
 import { usersService } from "../services/index.js"
 
 const getAllUsers = async(req,res)=>{
+    req.logger.debug("Get all users Test");
     const users = await usersService.getAll();
     res.send({status:"success",payload:users})
 }

@@ -10,8 +10,8 @@ import mocksRouter from './routes/mocks.router.js';
 
 import dbConnect from "./utils/dbConnect.util.js"
 import errorHandler from './middlewares/errorHandler.js';
-import { addLogger } from './utils/logger.js';
 import { cpus } from "os";
+import addLogger from "./utils/logger.js";
 import cluster from "cluster";
 import swaggerJSDoc from 'swagger-jsdoc';
 import swaggerUiExpress from "swagger-ui-express"; 

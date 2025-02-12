@@ -3,8 +3,8 @@ import envUtil from "./env.util.js";
 
 async function dbConnect() {
     try {
-        connect(process.env.MONGO_LINK)
-        console.log("mongodb connected");        
+        console.log("Connecting to MongoDB: ",process.env.MONGO_LINK);
+        connect(process.env.MONGO_LINK)        
     } catch (error) {
         console.log(error);        
     }

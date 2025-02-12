@@ -1,2 +1,19 @@
 {"level":"http","message":"Request: GET en /api/users - 5:45:19 PM"}
 {"level":"debug","message":"Mensaje de Debug"}
+{"level":"http","message":"Request: GET en /api/users - 3:52:24 PM"}
+{"level":"debug","message":"Get all users Test"}
+{"level":"http","message":"Request: POST en /api/sessions - 3:53:27 PM"}
+{"level":"http","message":"Request: POST en /api/sessions - 3:54:15 PM"}
+{"level":"http","message":"Request: POST en /api/sessions/register - 3:55:07 PM"}
+{"level":"http","message":"Request: DELETE en /api/users?uid=67a659e7008ea4585b256c9b - 4:08:55 PM"}
+{"level":"http","message":"Request: DELETE en /api/users?uid=67a659e7008ea4585b256c9b - 4:10:42 PM"}
+{"level":"http","message":"Request: DELETE en /api/users/67a659e7008ea4585b256c9b - 4:11:42 PM"}
+{"level":"debug","message":"Delete user Tes "}
+{"level":"http","message":"Request: DELETE en /api/users/67a659e7008ea4585b256c9b - 4:21:49 PM"}
+{"level":"debug","message":"Delete user Test ","uid":"67a659e7008ea4585b256c9b"}
+{"level":"http","message":"Request: DELETE en /api/users/67a659e7008ea4585b256c9b - 4:24:57 PM"}
+{"level":"debug","message":"Delete user Test: 67a659e7008ea4585b256c9b"}
+{"level":"http","message":"Request: DELETE en /api/users/67a659e7008ea4585b256c9b - 4:30:22 PM"}
+{"level":"http","message":"Request: DELETE en /api/users/67a659e7008ea4585b256c9b - 4:31:18 PM"}
+{"level":"debug","message":"Delete user Test: 67a659e7008ea4585b256c9b"}
+{"level":"http","message":"Request: POST en /api/sessions/register - 4:31:42 PM"}

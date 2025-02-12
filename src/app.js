@@ -25,6 +25,7 @@ const ready = () => {
     console.log("Numero de procesadores: ",numeroDeProcesadores);
     console.log("Process ID: ",process.pid);
     dbConnect()
+    console.log("mongodb connected");
 }
 
 // middlewares

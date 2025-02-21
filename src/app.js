@@ -1,5 +1,4 @@
 import express from 'express';
-import mongoose from 'mongoose';
 import cookieParser from 'cookie-parser';
 
 import usersRouter from './routes/users.router.js';
@@ -12,7 +11,6 @@ import dbConnect from "./utils/dbConnect.util.js"
 import errorHandler from './middlewares/errorHandler.js';
 import { cpus } from "os";
 import addLogger from "./utils/logger.js";
-import cluster from "cluster";
 import swaggerJSDoc from 'swagger-jsdoc';
 import swaggerUiExpress from "swagger-ui-express"; 
 

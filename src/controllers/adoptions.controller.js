@@ -14,6 +14,7 @@ const getAdoption = async(req,res)=>{
 
 const createAdoption = async(req,res)=>{
     const {uid,pid} = req.params;
+    req.logger.debug(`Adopting pet: ${pid} to user: ${uid}`);
     const user = await usersService.getUserById(uid);
     if(!user) return res.status(404).send({status:"error", error:"user Not found"});
     const pet = await petsService.getBy({_id:pid});
@@ -22,8 +23,8 @@ const createAdoption = async(req,res)=>{
     user.pets.push(pet._id);
     await usersService.update(user._id,{pets:user.pets})
     await petsService.update(pet._id,{adopted:true,owner:user._id})
-    await adoptionsService.create({owner:user._id,pet:pet._id})
-    res.send({status:"success",message:"Pet adopted"})
+    const adoptionResponse = await adoptionsService.create({owner:user._id,pet:pet._id})
+    res.send({status:"success",message:"Pet adopted",payload:adoptionResponse})
 }
 
 export default {

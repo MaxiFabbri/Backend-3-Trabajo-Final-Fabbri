@@ -17,3 +17,189 @@
 {"level":"http","message":"Request: DELETE en /api/users/67a659e7008ea4585b256c9b - 4:31:18 PM"}
 {"level":"debug","message":"Delete user Test: 67a659e7008ea4585b256c9b"}
 {"level":"http","message":"Request: POST en /api/sessions/register - 4:31:42 PM"}
+{"level":"http","message":"Request: POST en /api/pets - 3:18:45 PM"}
+{"level":"http","message":"Request: POST en /api/pets - 3:20:21 PM"}
+{"level":"http","message":"Request: GET en /api/adoptions - 3:20:21 PM"}
+{"level":"http","message":"Request: POST en /api/pets - 3:21:38 PM"}
+{"level":"http","message":"Request: GET en /api/adoptions - 3:21:38 PM"}
+{"level":"http","message":"Request: POST en /api/pets - 3:23:04 PM"}
+{"level":"http","message":"Request: GET en /api/adoptions - 3:23:04 PM"}
+{"level":"http","message":"Request: POST en /api/pets - 3:23:21 PM"}
+{"level":"http","message":"Request: GET en /api/adoptions - 3:23:21 PM"}
+{"level":"http","message":"Request: POST en /api/adoptions/679406cb96e811a127ccbc0a/679410154ea8de6b7f67afc5 - 3:43:04 PM"}
+{"level":"debug","message":"Adopting pet: 679410154ea8de6b7f67afc5 to user: 679406cb96e811a127ccbc0a"}
+{"level":"http","message":"Request: POST en /api/adoptions/679406cb96e811a127ccbc0a/679410154ea8de6b7f67afc5 - 3:46:39 PM"}
+{"level":"debug","message":"Adopting pet: 679410154ea8de6b7f67afc5 to user: 679406cb96e811a127ccbc0a"}
+{"level":"http","message":"Request: POST en /api/adoptions/679406cb96e811a127ccbc0a/679410154ea8de6b7f67afc5 - 3:48:13 PM"}
+{"level":"debug","message":"Adopting pet: 679410154ea8de6b7f67afc5 to user: 679406cb96e811a127ccbc0a"}
+{"level":"http","message":"Request: POST en /api/adoptions/679406cb96e811a127ccbc0a/679410154ea8de6b7f67afc5 - 3:50:25 PM"}
+{"level":"debug","message":"Adopting pet: 679410154ea8de6b7f67afc5 to user: 679406cb96e811a127ccbc0a"}
+{"level":"http","message":"Request: POST en /api/adoptions/679406cb96e811a127ccbc0a/679410154ea8de6b7f67afc5 - 3:50:35 PM"}
+{"level":"debug","message":"Adopting pet: 679410154ea8de6b7f67afc5 to user: 679406cb96e811a127ccbc0a"}
+{"level":"http","message":"Request: POST en /api/adoptions/679406cb96e811a127ccbc0a/6794029c6b40b4fc339d1d26 - 3:53:18 PM"}
+{"level":"debug","message":"Adopting pet: 6794029c6b40b4fc339d1d26 to user: 679406cb96e811a127ccbc0a"}
+{"level":"http","message":"Request: POST en /api/adoptions/679406cb96e811a127ccbc0a/6794029c6b40b4fc339d1d26 - 3:55:39 PM"}
+{"level":"debug","message":"Adopting pet: 6794029c6b40b4fc339d1d26 to user: 679406cb96e811a127ccbc0a"}
+{"level":"http","message":"Request: POST en /api/adoptions/679406cb96e811a127ccbc0a/6794029c6b40b4fc339d1d26 - 3:59:00 PM"}
+{"level":"debug","message":"Adopting pet: 6794029c6b40b4fc339d1d26 to user: 679406cb96e811a127ccbc0a"}
+{"level":"http","message":"Request: POST en /api/adoptions/679406cb96e811a127ccbc0a/679402b9670069caef6cc4d6 - 3:59:52 PM"}
+{"level":"debug","message":"Adopting pet: 679402b9670069caef6cc4d6 to user: 679406cb96e811a127ccbc0a"}
+{"level":"http","message":"Request: POST en /api/adoptions/67940702a34d431831630060/67940607358aedc0b81dd97e - 4:01:30 PM"}
+{"level":"debug","message":"Adopting pet: 67940607358aedc0b81dd97e to user: 67940702a34d431831630060"}
+{"level":"http","message":"Request: GET en /api/adoptions - 4:13:06 PM"}
+{"level":"http","message":"Request: GET en /api/adoptions - 4:15:24 PM"}
+{"level":"http","message":"Request: GET en /api/adoptions/67ae3f9e57f82861c960e2a4 - 4:16:29 PM"}
+{"level":"http","message":"Request: GET en /api/adoptions - 4:18:03 PM"}
+{"level":"http","message":"Request: GET en /api/adoptions/67ae3f9e57f82861c960e2a4 - 4:18:03 PM"}
+{"level":"http","message":"Request: GET en /api/adoptions - 4:19:34 PM"}
+{"level":"http","message":"Request: GET en /api/adoptions/67ae3f9e57f82861c960e2a4 - 4:19:34 PM"}
+{"level":"http","message":"Request: POST en /api/sessions/register - 4:24:10 PM"}
+{"level":"http","message":"Request: POST en /api/sessions/register - 4:24:19 PM"}
+{"level":"http","message":"Request: GET en /api/pets - 4:27:50 PM"}
+{"level":"error","message":"Error desconocido"}
+{"level":"http","message":"Request: GET en /api/pets - 4:28:31 PM"}
+{"level":"error","message":"Error desconocido"}
+{"level":"http","message":"Request: GET en /api/adoptions - 4:35:57 PM"}
+{"level":"http","message":"Request: POST en /api/pets - 4:35:57 PM"}
+{"level":"http","message":"Request: POST en /api/users - 4:35:57 PM"}
+{"level":"http","message":"Request: POST en /api/adoptions/undefined/undefined - 4:35:57 PM"}
+{"level":"http","message":"Request: GET en /api/pets - 4:36:43 PM"}
+{"level":"error","message":"Error desconocido"}
+{"level":"http","message":"Request: GET en /api/pets - 4:37:53 PM"}
+{"level":"error","message":"Error desconocido"}
+{"level":"http","message":"Request: POST en /api/pets - 4:38:44 PM"}
+{"level":"error","message":"Error desconocido"}
+{"level":"http","message":"Request: POST en /api/pets - 4:40:17 PM"}
+{"level":"error","message":"Error desconocido"}
+{"level":"http","message":"Request: POST en /api/pets/ - 4:41:03 PM"}
+{"level":"error","message":"Error desconocido"}
+{"level":"http","message":"Request: GET en /api/pets - 4:44:22 PM"}
+{"level":"http","message":"Request: POST en /api/pets - 4:45:55 PM"}
+{"birthDate":"2021-03-10","level":"debug","message":"Creating a new pet: ","name":"Firulais","specie":"Pichicho"}
+{"level":"http","message":"Request: GET en /api/adoptions - 4:51:17 PM"}
+{"level":"http","message":"Request: POST en /api/pets - 4:51:17 PM"}
+{"birthDate":"2021-03-10","level":"debug","message":"Creating a new pet: ","name":"Test Pet Name","specie":"Test Pet Specie"}
+{"level":"http","message":"Request: POST en /api/users - 4:51:17 PM"}
+{"level":"http","message":"Request: GET en /api/adoptions/67ae3f9e57f82861c960e2a4 - 4:51:17 PM"}
+{"level":"http","message":"Request: GET en /api/adoptions - 4:54:00 PM"}
+{"level":"http","message":"Request: POST en /api/pets - 4:54:00 PM"}
+{"birthDate":"2021-03-10","level":"debug","message":"Creating a new pet: ","name":"Test Pet Name","specie":"Test Pet Specie"}
+{"level":"http","message":"Request: POST en /api/users - 4:54:00 PM"}
+{"level":"http","message":"Request: GET en /api/adoptions/67ae3f9e57f82861c960e2a4 - 4:54:00 PM"}
+{"level":"http","message":"Request: GET en /api/adoptions - 4:55:20 PM"}
+{"level":"http","message":"Request: POST en /api/pets - 4:55:20 PM"}
+{"birthDate":"2021-03-10","level":"debug","message":"Creating a new pet: ","name":"Test Pet Name","specie":"Test Pet Specie"}
+{"level":"http","message":"Request: POST en /api/users - 4:55:20 PM"}
+{"level":"http","message":"Request: GET en /api/adoptions/67ae3f9e57f82861c960e2a4 - 4:55:20 PM"}
+{"level":"http","message":"Request: GET en /api/adoptions - 4:57:38 PM"}
+{"level":"http","message":"Request: POST en /api/pets - 4:57:38 PM"}
+{"birthDate":"2021-03-10","level":"debug","message":"Creating a new pet: ","name":"Test Pet Name","specie":"Test Pet Specie"}
+{"level":"http","message":"Request: POST en /api/users - 4:57:38 PM"}
+{"level":"http","message":"Request: GET en /api/adoptions/67ae3f9e57f82861c960e2a4 - 4:57:38 PM"}
+{"level":"http","message":"Request: GET en /api/adoptions - 4:58:27 PM"}
+{"level":"http","message":"Request: POST en /api/pets - 4:58:27 PM"}
+{"birthDate":"2021-03-10","level":"debug","message":"Creating a new pet: ","name":"Test Pet Name","specie":"Test Pet Specie"}
+{"level":"http","message":"Request: POST en /api/users - 4:58:27 PM"}
+{"level":"http","message":"Request: GET en /api/adoptions/67ae3f9e57f82861c960e2a4 - 4:58:27 PM"}
+{"level":"http","message":"Request: GET en /api/adoptions - 4:58:54 PM"}
+{"level":"http","message":"Request: POST en /api/pets - 4:58:54 PM"}
+{"birthDate":"2021-03-10","level":"debug","message":"Creating a new pet: ","name":"Test Pet Name","specie":"Test Pet Specie"}
+{"level":"http","message":"Request: POST en /api/users - 4:58:54 PM"}
+{"level":"http","message":"Request: GET en /api/adoptions/67ae3f9e57f82861c960e2a4 - 4:58:54 PM"}
+{"level":"http","message":"Request: GET en /api/adoptions - 4:59:27 PM"}
+{"level":"http","message":"Request: POST en /api/pets - 4:59:27 PM"}
+{"birthDate":"2021-03-10","level":"debug","message":"Creating a new pet: ","name":"Test Pet Name","specie":"Test Pet Specie"}
+{"level":"http","message":"Request: POST en /api/users - 4:59:27 PM"}
+{"level":"http","message":"Request: GET en /api/adoptions/67ae3f9e57f82861c960e2a4 - 4:59:27 PM"}
+{"level":"http","message":"Request: GET en /api/adoptions - 5:01:18 PM"}
+{"level":"http","message":"Request: POST en /api/pets - 5:01:18 PM"}
+{"birthDate":"2021-03-10","level":"debug","message":"Creating a new pet: ","name":"Test Pet Name","specie":"Test Pet Specie"}
+{"level":"http","message":"Request: POST en /api/sessions/register - 5:01:18 PM"}
+{"level":"http","message":"Request: GET en /api/adoptions/67ae3f9e57f82861c960e2a4 - 5:01:18 PM"}
+{"level":"http","message":"Request: GET en /api/adoptions - 5:03:00 PM"}
+{"level":"http","message":"Request: POST en /api/pets - 5:03:00 PM"}
+{"birthDate":"2021-03-10","level":"debug","message":"Creating a new pet: ","name":"Test Pet Name","specie":"Test Pet Specie"}
+{"level":"http","message":"Request: POST en /api/sessions/register - 5:03:00 PM"}
+{"level":"http","message":"Request: POST en /api/adoptions/67ae4ff471639538168a33a9/67ae4ff471639538168a33a6 - 5:03:00 PM"}
+{"level":"debug","message":"Adopting pet: 67ae4ff471639538168a33a6 to user: 67ae4ff471639538168a33a9"}
+{"level":"http","message":"Request: GET en /api/adoptions/67ae3f9e57f82861c960e2a4 - 5:03:00 PM"}
+{"level":"http","message":"Request: GET en /api/adoptions - 5:22:51 PM"}
+{"level":"http","message":"Request: POST en /api/sessions/register - 5:22:51 PM"}
+{"level":"http","message":"Request: GET en /api/adoptions - 5:31:59 PM"}
+{"level":"http","message":"Request: POST en /api/sessions/register - 5:31:59 PM"}
+{"level":"http","message":"Request: POST en /api/pets - 5:32:00 PM"}
+{"level":"http","message":"Request: GET en /api/adoptions - 5:34:02 PM"}
+{"level":"http","message":"Request: POST en /api/sessions/register - 5:34:02 PM"}
+{"level":"http","message":"Request: POST en /api/pets - 5:34:02 PM"}
+{"birthDate":"2021-03-10","level":"debug","message":"Creating a new pet: ","name":"Test Pet Name","specie":"Test Pet Specie"}
+{"level":"http","message":"Request: POST en /api/adoptions/67ae573a340aa2613e1210dc/67ae573a340aa2613e1210de - 5:34:02 PM"}
+{"level":"debug","message":"Adopting pet: 67ae573a340aa2613e1210de to user: 67ae573a340aa2613e1210dc"}
+{"level":"http","message":"Request: GET en /api/adoptions/67ae3f9e57f82861c960e2a4 - 5:34:03 PM"}
+{"level":"http","message":"Request: GET en /api/adoptions - 5:35:09 PM"}
+{"level":"http","message":"Request: POST en /api/sessions/register - 5:35:09 PM"}
+{"level":"http","message":"Request: POST en /api/pets - 5:35:09 PM"}
+{"birthDate":"2021-03-10","level":"debug","message":"Creating a new pet: ","name":"Test Pet Name","specie":"Test Pet Specie"}
+{"level":"http","message":"Request: POST en /api/adoptions/67ae577d340aa2613e1210e9/67ae577d340aa2613e1210eb - 5:35:09 PM"}
+{"level":"debug","message":"Adopting pet: 67ae577d340aa2613e1210eb to user: 67ae577d340aa2613e1210e9"}
+{"level":"http","message":"Request: GET en /api/adoptions/67ae3f9e57f82861c960e2a4 - 5:35:10 PM"}
+{"level":"http","message":"Request: GET en /api/adoptions - 5:37:22 PM"}
+{"level":"http","message":"Request: POST en /api/sessions/register - 5:37:22 PM"}
+{"level":"http","message":"Request: POST en /api/pets - 5:37:22 PM"}
+{"birthDate":"2021-03-10","level":"debug","message":"Creating a new pet: ","name":"Test Pet Name","specie":"Test Pet Specie"}
+{"level":"http","message":"Request: POST en /api/adoptions/67ae58026f5f187d11ac8aee/67ae58026f5f187d11ac8af0 - 5:37:23 PM"}
+{"level":"debug","message":"Adopting pet: 67ae58026f5f187d11ac8af0 to user: 67ae58026f5f187d11ac8aee"}
+{"level":"http","message":"Request: GET en /api/adoptions/67ae3f9e57f82861c960e2a4 - 5:37:23 PM"}
+{"level":"http","message":"Request: GET en /api/adoptions - 5:38:40 PM"}
+{"level":"http","message":"Request: POST en /api/sessions/register - 5:38:40 PM"}
+{"level":"http","message":"Request: POST en /api/pets - 5:38:40 PM"}
+{"birthDate":"2021-03-10","level":"debug","message":"Creating a new pet: ","name":"Test Pet Name","specie":"Test Pet Specie"}
+{"level":"http","message":"Request: POST en /api/adoptions/67ae58507f4e948b5581fb53/67ae58507f4e948b5581fb55 - 5:38:40 PM"}
+{"level":"debug","message":"Adopting pet: 67ae58507f4e948b5581fb55 to user: 67ae58507f4e948b5581fb53"}
+{"level":"http","message":"Request: GET en /api/adoptions/67ae3f9e57f82861c960e2a4 - 5:38:40 PM"}
+{"level":"http","message":"Request: GET en /api/adoptions - 5:42:01 PM"}
+{"level":"http","message":"Request: POST en /api/sessions/register - 5:42:01 PM"}
+{"level":"http","message":"Request: POST en /api/pets - 5:42:01 PM"}
+{"birthDate":"2021-03-10","level":"debug","message":"Creating a new pet: ","name":"Test Pet Name","specie":"Test Pet Specie"}
+{"level":"http","message":"Request: POST en /api/adoptions/67ae5919680c3bdc59d06a36/67ae5919680c3bdc59d06a38 - 5:42:01 PM"}
+{"level":"debug","message":"Adopting pet: 67ae5919680c3bdc59d06a38 to user: 67ae5919680c3bdc59d06a36"}
+{"level":"http","message":"Request: GET en /api/adoptions/67ae3f9e57f82861c960e2a4 - 5:42:02 PM"}
+{"level":"http","message":"Request: GET en /api/adoptions - 5:46:32 PM"}
+{"level":"http","message":"Request: POST en /api/sessions/register - 5:46:32 PM"}
+{"level":"http","message":"Request: POST en /api/pets - 5:46:32 PM"}
+{"birthDate":"2021-03-10","level":"debug","message":"Creating a new pet: ","name":"Test Pet Name","specie":"Test Pet Specie"}
+{"level":"http","message":"Request: POST en /api/adoptions/67ae5a28680c3bdc59d06a43/67ae5a28680c3bdc59d06a45 - 5:46:32 PM"}
+{"level":"debug","message":"Adopting pet: 67ae5a28680c3bdc59d06a45 to user: 67ae5a28680c3bdc59d06a43"}
+{"level":"http","message":"Request: GET en /api/adoptions/67ae5a29680c3bdc59d06a4b - 5:46:33 PM"}
+{"level":"http","message":"Request: GET en /api/adoptions - 5:47:18 PM"}
+{"level":"http","message":"Request: POST en /api/sessions/register - 5:47:18 PM"}
+{"level":"http","message":"Request: POST en /api/pets - 5:47:18 PM"}
+{"birthDate":"2021-03-10","level":"debug","message":"Creating a new pet: ","name":"Test Pet Name","specie":"Test Pet Specie"}
+{"level":"http","message":"Request: POST en /api/adoptions/67ae5a56680c3bdc59d06a50/67ae5a56680c3bdc59d06a52 - 5:47:18 PM"}
+{"level":"debug","message":"Adopting pet: 67ae5a56680c3bdc59d06a52 to user: 67ae5a56680c3bdc59d06a50"}
+{"level":"http","message":"Request: GET en /api/adoptions/67ae5a57680c3bdc59d06a58 - 5:47:19 PM"}
+{"level":"http","message":"Request: GET en /apidocs - 3:45:10 PM"}
+{"level":"http","message":"Request: GET en /apidocs/ - 3:45:10 PM"}
+{"level":"http","message":"Request: GET en /apidocs/swagger-ui.css - 3:45:10 PM"}
+{"level":"http","message":"Request: GET en /apidocs/swagger-ui-bundle.js - 3:45:10 PM"}
+{"level":"http","message":"Request: GET en /apidocs/swagger-ui-standalone-preset.js - 3:45:10 PM"}
+{"level":"http","message":"Request: GET en /apidocs/swagger-ui-init.js - 3:45:10 PM"}
+{"level":"http","message":"Request: GET en /apidocs/favicon-32x32.png - 3:45:10 PM"}
+{"level":"http","message":"Request: GET en /api/users - 3:45:20 PM"}
+{"level":"debug","message":"Get all users Test"}
+{"level":"http","message":"Request: GET en /api/mocks/mockingpets/5 - 7:07:34 PM"}
+{"level":"http","message":"Request: GET en /favicon.ico - 7:07:34 PM"}
+{"level":"http","message":"Request: GET en /api/mocks/mockingpets/10 - 7:07:44 PM"}
+{"level":"http","message":"Request: GET en /apidocs/ - 7:07:50 PM"}
+{"level":"http","message":"Request: GET en /apidocs/swagger-ui.css - 7:07:50 PM"}
+{"level":"http","message":"Request: GET en /apidocs/swagger-ui-bundle.js - 7:07:50 PM"}
+{"level":"http","message":"Request: GET en /apidocs/swagger-ui-standalone-preset.js - 7:07:50 PM"}
+{"level":"http","message":"Request: GET en /apidocs/swagger-ui-init.js - 7:07:50 PM"}
+{"level":"http","message":"Request: GET en /api/adoptions - 7:10:43 PM"}
+{"level":"http","message":"Request: POST en /api/sessions/register - 7:10:43 PM"}
+{"level":"http","message":"Request: GET en /api/adoptions - 7:10:58 PM"}
+{"level":"http","message":"Request: POST en /api/sessions/register - 7:10:58 PM"}
+{"level":"http","message":"Request: POST en /api/pets - 7:10:58 PM"}
+{"birthDate":"2021-03-10","level":"debug","message":"Creating a new pet: ","name":"Test Pet Name","specie":"Test Pet Specie"}
+{"level":"http","message":"Request: POST en /api/adoptions/67b8f9f2b5e3ec2e80d6a96b/67b8f9f2b5e3ec2e80d6a96d - 7:10:58 PM"}
+{"level":"debug","message":"Adopting pet: 67b8f9f2b5e3ec2e80d6a96d to user: 67b8f9f2b5e3ec2e80d6a96b"}
+{"level":"http","message":"Request: GET en /api/adoptions/67b8f9f2b5e3ec2e80d6a973 - 7:10:58 PM"}

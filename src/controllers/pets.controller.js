@@ -8,6 +8,7 @@ const getAllPets = async(req,res)=>{
 }
 
 const createPet = async(req,res)=> {
+    req.logger.debug("Creating a new pet: ",req.body);
     const {name,specie,birthDate} = req.body;
     if(!name||!specie||!birthDate) return res.status(400).send({status:"error",error:"Incomplete values"})
     const pet = PetDTO.getPetInputFrom({name,specie,birthDate});
